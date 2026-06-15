@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow — Kanban Board</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header>
+  <div class="logo"><div class="logo-dot"></div> TaskFlow</div>
+  <div class="header-right">
+    <span class="stat" id="header-stat"></span>
+    <button class="btn-sm" id="clear-btn">Clear all</button>
+    <button class="btn-sm" id="theme-btn">🌙 Dark</button>
+  </div>
+</header>
+
+<div class="stats-bar" id="stats-bar"></div>
+
+<div class="board-wrap">
+  <div class="board" id="board">
+    <button class="add-col-btn" id="add-col-btn">+ Add column</button>
+  </div>
+</div>
+
+<!-- CARD EDIT MODAL -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <div class="modal-title" id="modal-heading">Edit card</div>
+    <div>
+      <label>Title</label>
+      <textarea id="modal-text" rows="3"></textarea>
+    </div>
+    <div>
+      <label>Due date (optional)</label>
+      <input type="date" id="modal-due" />
+    </div>
+    <div>
+      <label>Labels</label>
+      <div class="label-picker" id="label-picker"></div>
+    </div>
+    <div class="modal-actions">
+      <button class="btn-sm" id="modal-cancel">Cancel</button>
+      <button class="btn-sm btn-primary" id="modal-save">Save card</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
