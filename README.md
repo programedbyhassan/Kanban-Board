@@ -8,7 +8,7 @@
 
 A fully featured drag-and-drop Kanban board built with zero dependencies — no frameworks, no libraries, no build tools. Just HTML, CSS, and JavaScript. Tasks persist across sessions using `localStorage`.
 
-**🔗 Live Demo:** [yourusername.github.io/kanban-board](https://yourusername.github.io/kanban-board)
+**🔗 Live Demo:** [programedbyhassan.github.io/kanban-board](https://programedbyhassan.github.io/kanban-board)
 
 ---
 
