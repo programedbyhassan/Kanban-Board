@@ -43,7 +43,7 @@ No installation needed.
 ### Option 1 — Open directly
 
 ```bash
-git clone https://github.com/yourusername/kanban-board.git
+git clone https://github.com/programedbyhassan/kanban-board.git
 open index.html
 ```
 
@@ -51,7 +51,7 @@ open index.html
 
 1. Upload `index.html` to a new GitHub repo
 2. Go to **Settings → Pages → Source → main / root**
-3. Your board is live at `https://yourusername.github.io/kanban-board`
+3. Your board is live at `https://programedbyhassan.github.io/kanban-board`
 
 ---
 
